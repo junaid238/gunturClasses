@@ -20,7 +20,7 @@ name = "Python"
 identifier --> name 
 string --> python
 
-Features 
+Features: 
 --------
 indexing
 slicing 
