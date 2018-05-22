@@ -1,0 +1,177 @@
+PYTHON -- Strings -- Online - Session -3 - 22-05-2018
+------------------------------------------------------
+Numbers 
+operators 
+
+strings --> done
+operations on strings --> 23/05
+< class str >
+
+Strings ---> string and char
+char - single char --> alphabet , symbol , number -> a , @ , 1 ,  
+string - group of chars --> python , 100 , @name 
+
+Syntax 
+------
+single quotes - ' '
+double quotes - " "
+
+name = "Python"
+identifier --> name 
+string --> python
+
+Features 
+--------
+indexing
+slicing 
+concatenating
+
+default strings
+raw Strings
+unicode strings
+
+indexing
+========
+spliting strings into chars based on index 
+default in python , other langaues need to do externally
+
+name = "Hyderabad"
+
+H 	y	d 	e 	r 	a 	b 	a 	d -> chars
+0 	1 	2 	3 	4 	5 	6 	7 	8 -> indices(forward)
+-9  -8  -7 -6  -5  -4  -3  -2   -1 -> backward indices
+
+name[5] ===> a
+name[-4]===> a
+
+name[6] ==> b
+name[-8]==> y
+
+Slicing 
+-------
+need substring from a string
+
+tech = "Python and Datasciences"
+tech[0]  ==> P
+tech[4]  ==> o
+tech[6]  ==>  
+
+thon -> 2 3 4 5
+5 - 2 = 3
+6 - 2 = 4
+
+tech[2 : 5] --> tho
+tech[2 : 6] --> thon 2 3 4 5 --> 2+1+1+1
+
+input vs output
+---------------
+>>>tech[2:5]
+'tho'
+>>> tech[2:6]
+'thon'
+>>> tech[5:15]
+'n and Data' 
+>>> tech[6:12]
+' and D'
+>>> tech[12:18]
+'atasci'
+
+tech[index] --> single char
+tech[start:stop] --> substring
+
+start<stop
+
+tech[start : stop :step] -> substring with step
+tech[2 : 6] -->  2 3 4 5 --> 2+1+1+1
+
+tech[1:10:2]---> 1 3 5 7 9 --> 1+2+2+2+2
+tech[1:10:4]---> 1 6 --> 1+5
+
+string slicing using neg indices ????
+tech[-10:-2]
+
+Reverse accessing of strings
+-----------------------------
+step = -1
+
+stop>start
+
+tech[stop:start:-1]
+
+tech[10:1:-1]
+tech[-1:-11:-1]
+
+reverse a string
+----------------
+tech[ : : -1]
+
+
+>>> tech[2:10]
+'thon and'
+>>> tech[2:10:2]
+'to n'
+>>> tech[10:1:-1]
+' dna noht' 
+>>> tech[::-1]
+'secniecS ataD dna nohtyP'
+------------------------------
+
+Escape / special characters 
+----------------------------
+\ -> escape char 
+
+dialouge  = " Hai I'am here "
+dial  = ' Hai I\'am here '
+
+stmt = "hello 
+iam here 
+bye"
+
+\n --> new line
+
+stmt = "hello \n iam here \n bye"
+
+\t --> tab space
+
+i 	teach 	python
+
+
+input vs output
+----------------
+stmt = "hello \n iam here \n bye"
+>>> stmt
+'hello \n iam here \n bye'
+>>> print(stmt)
+hello 
+ iam here 
+ bye
+>>> dia = "i\tteach\tpython"
+>>> print(dia)
+i	teach	python
+
+book = "hai 
+iam writing a book 
+it is a good book 
+i has many pages 
+bye"
+
+
+book = "hai \niam writing a book \nit is a good book \nit has many pages \nbye"
+
+Multi line string 
+------------------
+''' '''
+
+book = '''hai 
+iam writing a book 
+it is a good book 
+i has many pages 
+bye'''
+
+
+
+
+
+
+
+

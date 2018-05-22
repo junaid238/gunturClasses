@@ -1,0 +1,116 @@
+Python 
+------
+programming language
+scripting language
+
+Python version --> 3.6 latest stable 
+				-> 2.7 most used stable
+
+features
+--------
+open source 
+cross platform 
+interpreted 
+dynamically typed 
+Pure OOPS 
+------------------------------
+open source 
+--> no liscense 
+--> free ofcost 
+--> python.org -> community 
+
+cross platform
+--> python code --> all OS 
+--> code OS independent 
+
+interpreted
+--> compiler vs interpreter
+--> code -->10 lines 
+
+----
+----3 error
+---7 error
+---
+---9 error
+----
+
+--> compiler --> errors at 3 , 7 ,9 --> fix --> no erroe --> compiled code --> run --> output 
+
+Python 
+------
+--> interpreter --> error at 3 output till 2 --> fix 3 -->error at 7 output till 6 --> fix --> error at 9 output till 8 --> fix --> full output
+
+dynamically typed 
+a = 10 
+a = "python"
+a = 90.67
+
+static coding 
+int a = 10 
+a = "Python" XXX error 
+
+Pure OOPS
+oops --> object oriented programming
+CPP / Java
+----------
+object --> class 
+class --> object
+
+python
+------
+class is object	
+object is object
+value is object
+everything is object
+------------------------------
+Win--> python.org 
+--> c/programs/files/python
+							--> run here only
+						--> XXX
+					--> XXX
+local install
+global install---> python --> path / environment variables
+CMD--> where python 
+c/programs/files/python
+my computer --> rt click --> adv system setting --> environmentvar
+--> c/programs/files/python
+							--> run 
+						--> run
+					--> run
+d/ --> run 
+---------------
+writing code 
+
+win IDLE -> runtime code / single line code
+CMD = Terminal -->python >>> -->interpreter runtime code / single line code
+
+python file 
+
+editor --> sublime text , notepad++ , python full code 
+executing --> cmd/Terminal --> python filename.py
+
+IDE --> Pycharm --> editor + cmd
+
+
+Update Python2.7 to python3.6 in MacOS:
+---------------------------------------
+
+Mac OS X:
+Check the version in Terminal 
+digitallyncs-MacBook-Air:~ user$ python -V
+Python 3.6.4 → version of python available on machine
+
+ digitallyncs-MacBook-Air:~ user$ python -V
+Python 2.7.10
+Then follow the script below in Terminal
+----------------------------------------
+xcode-select -p 
+xcode-select --install
+
+Install HomeBrew
+----------------
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Install Python3
+---------------
+brew install python3
