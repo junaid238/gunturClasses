@@ -4,6 +4,7 @@
 # for -> strings
 # string repetition
 # -----------------
+
 # print("a" * 10)
 # print("python " * 3)
 
