@@ -25,9 +25,9 @@
 # definition  + implementation  --> single line
 # call
 
-def addNum(a,b):
-	res = a+b # implementation = operation
-	return res # does not count as implementation
+# def addNum(a,b):
+# 	res = a+b # implementation = operation
+# 	return res # does not count as implementation
 
 # ans = addNum(10,20)
 # print(ans)
@@ -56,9 +56,9 @@ def addNum(a,b):
 # collections ( lists )
 
 # l1 = [1,2,3,4,5]
-l2 = [10,20,30,40,50]
+# l2 = [10,20,30,40,50]
 
-l3 = [11,22,33,44,55]
+# l3 = [11,22,33,44,55]
 
 # l4 = [1,4,9,16,25] # squares of l1
 
