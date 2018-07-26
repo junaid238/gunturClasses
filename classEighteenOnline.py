@@ -19,14 +19,14 @@
 
 
 # adding of two nums 
-# def addNums(a,b):
-# 	ans = a+b
-# 	# print("sum of nums " +str(ans))
-# 	# define a return type
-# 	return ans
-# # assigning a function call to "a"
-# a = addNums(10,200) # ans = 210 
-# print("from a " + str(a))
+def addNums(a,b):
+	ans = a+b
+	# print("sum of nums " +str(ans))
+	# define a return type
+	return ans
+# assigning a function call to "a"
+a = addNums(10,200) # ans = 210 
+print("from a " + str(a))
 
 # # #subtracting of two nums 
 # def subNums(c,d):
@@ -76,12 +76,12 @@
 # print("from mul function " ,mulRes)
 # print("from div function " ,divRes)
 
-Task 
-----
-res = strVowel("Iam in Hyderabad")
-print(res)
-# I a i e a a 
+# Task 
+# ----
+# res = strVowel("Iam in Hyderabad")
+# print(res)
+# # I a i e a a 
 
-avg = avgNums(10,20,30,40)
-print(avg)
-# 25
+# avg = avgNums(10,20,30,40)
+# print(avg)
+# # 25
